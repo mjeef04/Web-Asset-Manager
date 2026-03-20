@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Restaurant Le Teranga"
+version = "1.0.0"
+id = "artifacts/teranga"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19515
+
+[services.development]
+run = "pnpm --filter @workspace/teranga run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/teranga", "run", "build" ]
+publicDir = "artifacts/teranga/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19515"
+BASE_PATH = "/"

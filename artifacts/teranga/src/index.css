@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: 'Lato', sans-serif;
+  --font-display: 'Playfair Display', serif;
+
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-border: hsl(var(--border));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  
+  --color-terracotta: hsl(21 61% 47%);
+  --color-deepgreen: hsl(166 39% 17%);
+  --color-cream: hsl(42 58% 90%);
+  --color-gold: hsl(46 65% 52%);
+}
+
+:root {
+  /* Cream background #F5ECD7 */
+  --background: 42 58% 90%;
+  --foreground: 166 39% 10%;
+  
+  /* Terracotta primary #C0622F */
+  --primary: 21 61% 47%;
+  --primary-foreground: 42 58% 95%;
+  
+  /* Deep Green secondary #1A3C34 */
+  --secondary: 166 39% 17%;
+  --secondary-foreground: 42 58% 95%;
+  
+  /* Gold accent #D4AF37 */
+  --accent: 46 65% 52%;
+  --accent-foreground: 166 39% 10%;
+  
+  --muted: 42 30% 80%;
+  --muted-foreground: 166 20% 35%;
+  
+  --border: 42 30% 80%;
+  
+  --card: 42 60% 94%;
+  --card-foreground: 166 39% 10%;
+
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: 166 39% 10%;
+  --foreground: 42 58% 90%;
+  
+  --primary: 21 61% 47%;
+  --primary-foreground: 42 58% 95%;
+  
+  --secondary: 166 39% 17%;
+  --secondary-foreground: 42 58% 90%;
+  
+  --accent: 46 65% 52%;
+  --accent-foreground: 166 39% 10%;
+  
+  --muted: 166 30% 20%;
+  --muted-foreground: 42 20% 75%;
+  
+  --border: 166 30% 25%;
+  
+  --card: 166 39% 14%;
+  --card-foreground: 42 58% 90%;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased font-sans selection:bg-primary selection:text-white;
+    background-image: url('/images/pattern-bg.png');
+    background-blend-mode: multiply;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass-panel {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+  
+  .dark .glass-panel {
+    @apply bg-black/30 backdrop-blur-md border border-white/10 shadow-2xl;
+  }
+}

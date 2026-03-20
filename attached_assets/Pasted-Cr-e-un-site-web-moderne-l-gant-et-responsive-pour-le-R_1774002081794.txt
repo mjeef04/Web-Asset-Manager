@@ -1,0 +1,43 @@
+Crée un site web moderne, élégant et responsive pour le Restaurant Le Teranga, situé à Haie-Vive (Rue 375), Cotonou, Bénin. Voici toutes les informations nécessaires :
+
+🏷️ Identité du restaurant
+
+Nom : Restaurant Le Teranga
+Slogan : "L'hospitalité au cœur des saveurs" (le mot "Teranga" signifie hospitalité en wolof)
+Ambiance : terrasse chaleureuse, cuisine fusion (libanaise, méditerranéenne, africaine, internationale)
+Horaires : tous les jours de 9h à 1h du matin
+Téléphone : +229 21 30 29 29
+Adresse : Rue 375, Haie-Vive, Cotonou, Bénin
+Facebook : https://www.facebook.com/LeTerangaRestaurant
+Google Maps : https://maps.app.goo.gl/LeTerangaCotonou (intégrer une iframe Google Maps)
+
+
+🍽️ Sections du site à créer
+
+Hero / Accueil — Grande bannière immersive avec photo d'ambiance de restaurant africain en terrasse la nuit, le nom du restaurant en grand, le slogan, et un bouton CTA "Réserver une table" et "Voir le menu".
+À propos — Courte présentation chaleureuse du restaurant : fusion culinaire unique à Cotonou, terrasse, bar à cocktails, atmosphère conviviale pour familles, couples, groupes.
+Menu / Spécialités — Section avec cartes visuelles par catégorie :
+
+🍕 Pizzas au feu de bois (dont la Pizza Méditerranée, signature)
+🥙 Spécialités libanaises (Shawarma, Falafel, Houmous, Taboulé)
+🍖 Grillades & viandes
+🐟 Fruits de mer & poisson braisé
+🥗 Salades (ex : Salade avocat-crevettes)
+🍹 Cocktails & boissons
+
+
+Galerie — Grille de photos (placeholders stylisés) montrant les plats, la terrasse, l'ambiance nocturne.
+Avis clients — Section témoignages avec 3-4 faux avis positifs (format carte avec étoiles), inspirés des retours réels : grandes portions, excellente pizza, bonne ambiance.
+Localisation & Contact — Iframe Google Maps centrée sur Cotonou / Haie-Vive + formulaire de contact simple (nom, email, message, bouton envoyer) + infos de contact (téléphone, adresse, horaires, lien Facebook).
+Footer — Logo/nom du restaurant, liens rapides, réseaux sociaux, copyright.
+
+
+🎨 Design & style
+
+Palette de couleurs : tons chauds et africains — ocre/terracotta (#C0622F), crème (#F5ECD7), vert foncé (#1A3C34), blanc cassé, accents dorés
+Typographie : titre en serif élégant (ex : Playfair Display), corps en sans-serif moderne (ex : Inter ou Lato)
+Style général : moderne, premium, chaleureux — inspiration restaurants africains haut de gamme
+Navbar : fixe en haut, transparente sur le hero, fond sombre au scroll, avec logo + liens de navigation + bouton "Réserver"
+Animations : légères (fade-in au scroll, hover sur les cartes menu)
+Utiliser des icônes (Font Awesome ou Lucide) pour les catégories et contacts
+Entièrement responsive : mobile, tablette, desktop
