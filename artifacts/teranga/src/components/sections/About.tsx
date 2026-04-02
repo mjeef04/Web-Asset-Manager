@@ -36,7 +36,7 @@ export function About() {
                 <h4 className="font-display font-bold text-xl">L'Hospitalité</h4>
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Le Teranga, c'est l'art de recevoir à l'africaine, avec générosité et chaleur.
+                Le TiersMonde, c'est l'art de recevoir à l'africaine, avec générosité et chaleur.
               </p>
             </div>
           </motion.div>
@@ -58,13 +58,13 @@ export function About() {
             
             <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
               <p>
-                Au cœur de Cotonou, le Restaurant <strong className="text-secondary">Le Teranga</strong> vous invite dans un cadre exceptionnel. Notre nom, qui signifie « hospitalité » en wolof, reflète notre philosophie la plus profonde : vous accueillir comme des amis de longue date.
+                Au cœur de Cotonou, le Restaurant <strong className="text-secondary">Le TiersMonde</strong> vous invite dans un cadre exceptionnel. Notre nom, qui signifie « hospitalité » en wolof, reflète notre philosophie la plus profonde : vous accueillir comme des amis de longue date.
               </p>
               <p>
                 Profitez de notre magnifique terrasse illuminée et savourez notre cuisine fusion — un mélange subtil et raffiné de saveurs libanaises, méditerranéennes, africaines et internationales. Chaque plat est préparé avec des ingrédients frais et une passion débordante.
               </p>
               <p>
-                Que vous soyez en famille pour un dîner convivial, en couple pour une soirée romantique, ou entre amis pour célébrer, Le Teranga est <span className="italic text-primary">votre table</span>.
+                Que vous soyez en famille pour un dîner convivial, en couple pour une soirée romantique, ou entre amis pour célébrer, Le TiersMonde est <span className="italic text-primary">votre table</span>.
               </p>
             </div>
             
@@ -72,7 +72,7 @@ export function About() {
               <img src={`${import.meta.env.BASE_URL}images/teranga-logo.png`} alt="Le Teranga Icon" className="w-16 h-16 opacity-80 mix-blend-multiply" />
               <div className="flex flex-col">
                 <span className="font-display text-xl text-secondary font-semibold">Le Chef Exécutif</span>
-                <span className="text-primary text-sm tracking-widest uppercase">Signature Teranga</span>
+                <span className="text-primary text-sm tracking-widest uppercase">Signature TiersMonde</span>
               </div>
             </div>
           </motion.div>
