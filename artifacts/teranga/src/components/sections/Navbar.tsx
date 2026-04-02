@@ -45,7 +45,7 @@ export function Navbar() {
             <span className={`font-display font-bold text-2xl tracking-wide transition-colors ${
               isScrolled ? "text-white" : "text-white drop-shadow-md"
             }`}>
-              Le Teranga
+              Le TiersMonde
             </span>
           </a>
 
