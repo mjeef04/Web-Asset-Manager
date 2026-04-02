@@ -15,7 +15,7 @@ const reviews = [
   },
   {
     name: "Amira B.",
-    text: "Le Teranga, c'est une expérience unique à Cotonou. La fusion cuisine libanaise-africaine est parfaitement réussie. Incontournable !",
+    text: "Le TiersMonde, c'est une expérience unique à Cotonou. La fusion cuisine libanaise-africaine est parfaitement réussie. Incontournable !",
     date: "Il y a 2 mois"
   },
   {
