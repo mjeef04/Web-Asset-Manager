@@ -48,7 +48,7 @@ export function Gallery() {
             </h2>
           </div>
           <p className="text-white/70 max-w-sm text-lg md:text-right">
-            Un aperçu de l'expérience visuelle et gustative qui vous attend au Teranga.
+            Un aperçu de l'expérience visuelle et gustative qui vous attend au TiersMonde.
           </p>
         </div>
 
