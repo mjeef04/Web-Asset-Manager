@@ -28,7 +28,7 @@ export function Hero() {
           </span>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display text-white mb-6 leading-tight drop-shadow-lg">
             Restaurant <br/>
-            <span className="text-primary italic">Le Teranga</span>
+            <span className="text-primary italic">Le TiersMonde</span>
           </h1>
           <p className="text-lg md:text-2xl text-white/90 font-light max-w-2xl mx-auto mb-10 text-balance leading-relaxed">
             L'hospitalité au cœur des saveurs. Un voyage culinaire unique entre la Méditerranée, le Liban et l'Afrique.
