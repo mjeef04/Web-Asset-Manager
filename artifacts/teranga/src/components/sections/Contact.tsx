@@ -90,7 +90,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-secondary mb-1">Téléphone</h4>
-                  <p className="text-muted-foreground">+229 21 30 29 29</p>
+                  <p className="text-muted-foreground">+229 01 00 00 00 00</p>
                 </div>
               </div>
               
@@ -110,7 +110,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-secondary mb-1">Réseaux Sociaux</h4>
-                  <a href="https://www.facebook.com/LeTerangaRestaurant" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors underline underline-offset-2">
+                  <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition-colors underline underline-offset-2">
                     Suivez-nous sur Facebook
                   </a>
                 </div>
